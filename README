@@ -1,0 +1,7 @@
+Page optimization of 2 high-traffic Croatian news sites (May 2009):
+
+* jutarnji.hr
+* vecernji.hr
+
+Each 'orig' folder contains original (non-optimized) markup and styles.
+The rest is optimized version.

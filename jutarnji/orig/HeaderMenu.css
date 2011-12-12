@@ -1,0 +1,39 @@
+.menuHorizontal1 TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; font-weight: bold; color: #023d79; width:100%;}
+.menuHorizontal1Over TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; font-weight: bold; background: #666666; color: #FFFFFF; width:100%;}
+
+.menuHorizontalIdx TD{cursor:pointer; cursor:hand; font-size: 12px; font-family: Arial, Verdana; color: #333333; background-color: #efefef; width:100%;}
+.menuHorizontalIdx {border-bottom: 1px solid #dfdfdf; }
+.menuHorizontalIdxOver TD{cursor:pointer; cursor:hand; font-size: 12px; font-family: Arial, Verdana; color:#333333; background-color: #FFFFFF; width:100%;}
+.menuHorizontalIdxOver {border-bottom: 1px solid #dfdfdf;}
+
+.menuH2Main TD{cursor:pointer; cursor:hand; font-size: 12px; font-family: Arial, Verdana; font-weight: bold; color: #023D78; width:100%;}
+
+.menuH2NewsMainOver TD{cursor:pointer; cursor:hand; font-size: 12px; font-family: Arial, Verdana; font-weight: bold; color: #FFFFFF; background: #003c93; width:100%;}
+.menuH2NewsSub TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; color: #003366; background-color:#fff; width:100%;}
+.menuH2NewsSub {border-bottom: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef;}
+.menuH2NewsSubOver TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; color: #cc0000; background-color:#fff; width:100%;}
+.menuH2NewsSubOver {border-bottom: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef; }
+
+.menuH2SportMainOver TD{cursor:pointer; cursor:hand; font-size: 12px; font-family: Arial, Verdana; font-weight: bold; color: #FFFFFF; background: #003c93; width:100%;}
+.menuH2SportSub TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; color: #003366; background-color:#fff; width:100%;}
+.menuH2SportSub {border-bottom: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef;}
+.menuH2SportSubOver TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; color: #cc0000; background-color:#fff; width:100%;}
+.menuH2SportSubOver {border-bottom: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef; }
+
+.menuH2CultureMainOver TD{cursor:pointer; cursor:hand; font-size: 12px; font-family: Arial, Verdana; font-weight: bold; color: #FFFFFF; background: #003c93; width:100%;}
+.menuH2CultureSub TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; color: #003366; background-color:#fff; width:100%;}
+.menuH2CultureSub {border-bottom: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef;}
+.menuH2CultureSubOver TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; color: #cc0000; background-color:#fff; width:100%;}
+.menuH2CultureSubOver {border-bottom: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef; }
+
+.menuH2AutoMainOver TD{cursor:pointer; cursor:hand; font-size: 12px; font-family: Arial, Verdana; font-weight: bold; color: #FFFFFF; background: #003c93; width:100%;}
+.menuH2AutoSub TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; color: #003366; background-color:#fff; width:100%;}
+.menuH2AutoSub {border-bottom: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef;}
+.menuH2AutoSubOver TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; color: #cc0000; background-color:#fff; width:100%;}
+.menuH2AutoSubOver {border-bottom: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef; }
+
+.menuH2RealtyMainOver TD{cursor:pointer; cursor:hand; font-size: 12px; font-family: Arial, Verdana; font-weight: bold; color: #FFFFFF; background: #003c93; width:100%;}
+.menuH2RealtySub TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; color: #003366; background-color:#fff; width:100%;}
+.menuH2RealtySub {border-bottom: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef;}
+.menuH2RealtySubOver TD{cursor:pointer; cursor:hand; font-size: 11px; font-family: Arial, Verdana; color: #cc0000; background-color:#fff; width:100%;}
+.menuH2RealtySubOver {border-bottom: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef; }

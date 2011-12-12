@@ -1,0 +1,122 @@
+/* Reset CSS */
+
+html * { margin:0; padding:0; border:0; font-size:100% }
+ol, ul { list-style:none }
+
+/* General */
+body { line-height:1; font:62.5% Arial, Helvetica, sans-serif; width:98em; color:#003C93; background:#fff }
+a { text-decoration:none; color:#003C93 }
+	a:hover { color:#900 }
+input[type="submit"], input[type="button"] { border:1px solid #666; color:#333 }
+
+/* #header */
+body>div:first-child { background:#e5e5e5; border-top:5px solid #003C93; overflow:hidden; }
+	body>div:first-child ol { float:left; font-size:1.1em; font-weight:bold; padding:.6em 0; margin-right:18em }
+		body>div:first-child li { display:inline; padding:0 1.2em }
+	body>div:first-child input { margin:.4em 0 .2em; padding:.15em }
+	body>div:first-child input[type="submit"] { font-weight:bold; margin-left:3em }
+		
+body>div:first-child+ol { font-size:1.2em; font-weight:bold; border-bottom:1px solid #dadada; padding:.4em 0 }
+	body>div:first-child+ol li { display:inline; border-left:1px solid #999; padding:0 1.5em }
+		body>div:first-child+ol li:first-child { border:0 none }
+	body>div:first-child+ol dt {}
+	body>div:first-child+ol dd a{ font-weight:normal;}
+
+body h1 img { margin:2em 0 0 2em }
+body h1+ol { margin:0 0 2em 2.5em; width:21em }
+	body h1+ol li { font-size:1.1em; display:inline; line-height:1.4em; padding:0 0.5em }
+		body h1+ol li:first-child { border-right:1px solid #888 }
+	body h1+ol a { text-decoration:underline }
+	
+/* #lcol */
+body h1+ol+div { width:15em; float:left; padding-right:1em }
+body h1+ol+div div:first-child { background:#003C93; color:#e5e5e5; padding:.4em 0 .4em 1em }
+
+#nav { border-bottom:1px solid #003C93 }
+#nav li { font-size:1.2em; font-weight:bold; background:#f2f2f2; border-bottom:1px solid #dfdfdf; padding:.3em 0 .3em 1em }
+
+#nav+ol li { border-bottom:1px solid #dfdfdf; font-size:1.1em; padding:.4em 1em }
+
+#nav~dl { font-size:1.2em; border:1px solid #B1AA99; padding:2em 1em; margin:3em 0 3em .3em }
+	#nav~dl dt { color:#900; font-weight:bold; margin-bottom:1em }
+	#nav~dl dd { color:#000 }
+		#nav~dl q {
+			display:block; border-bottom:1px solid #000; padding-bottom:.5em; margin-bottom:.5em;
+			font:1.5em "Times New Roman", Times, serif;
+		}
+
+#nav~dl+ol { margin-bottom:1em }		
+#nav~dl+ol li { font-size:1.1em; height:3.5em }
+#nav~dl+ol img { float:left; margin:0.3em 0.6em 0.3em 1em }
+
+#nav~h2~ol { background:#ebebeb }
+#nav~h2+ol li { display:inline; padding:.3em 1.45em; font-weight:bold; background:#ebebeb }
+#nav~h2+ol a { color:#666 }
+	#nav~h2+ol li:first-child { background:#7a7a7a }
+	#nav~h2+ol li:first-child a { color:#ebebeb }
+
+#nav~h2+ol+ol { color:#666; padding:1em }
+#nav~h2+ol+ol li { padding:.3em 0 }
+
+/* #main */
+#main { width:48em; float:left }
+#main h2 { color:#cb0000; text-transform:uppercase; margin-bottom:.5em }
+
+#main>dl { margin-bottom:2em }
+#main>dl dt { background:#efefef; padding:1em }
+#main>dl dd, #main+div+div dd { position:absolute; left:-10000px; overflow:hidden; width:1em }
+
+#main>dl+ul li { float:left; width:24%; height:24em; font-size:1.1em; margin:0 0.5% }
+#main>dl+ul li:first-child, #main>dl+ul li:first-child+li { width:50%; height:16em; margin:0 }
+	#main>dl+ul li:first-child h3, #main>dl+ul li:first-child+li h3 { font-size:1.25em }
+	#main>dl+ul li:first-child p, #main>dl+ul li:first-child+li p { font-size:1.1em }
+	#main>dl+ul li:first-child img, #main>dl+ul li:first-child+li img { float:left; margin-right:.8em }
+#main>dl+ul p { color:#333 }
+
+#main>div { float:left; width:48%; margin:0 0.75% 1em; font-size:1.1em; border:1px solid #e5e5e5 }
+#main>div h2 { font:bold 1.1em Georgia, serif; border-bottom:1px solid #e5e5e5; margin:.8em .8em 0; padding-bottom:.4em }
+#main>div dl { padding:.8em }
+	#main>div dt { color:#333; font-weight:bold }
+	#main>div dd { margin-bottom:.5em }
+	
+#main>h2 {
+	background:#333 url(img/bg-najkomentiraniji.jpg); clear:left; color:#FFFFFF; font-size:1.1em;
+	padding:0.3em 1em; text-transform:none;
+}
+#main>h2+ul { font-size:1.2em; list-style:disc inside; color:#000 }
+#main>h2+ul li { margin-bottom:.3em }
+
+/* #rcol1 */
+#main+div { float:left; width:20em; margin-left:1em }
+#main+div>* { font-size:1.1em }
+#main+div>dl, #main+div>ol, #main+div>ul { border:solid #e5e5e5; border-width:0 1px 1px; padding:.7em; margin-bottom:1.5em }
+#main+div h2 {
+	color:#cb0000; text-transform:uppercase; font:bold 1.2em Georgia, serif;
+	background:#f2f2f2; border:solid #e5e5e5; border-width:1px 1px 0; padding:.7em;
+}
+
+#main+div>dl { line-height:1.4em }
+	#main+div>dl dt { float:left; color:#111; margin-right:.2em }
+	
+#main+div>ol { list-style:decimal inside }
+#main+div>ol span { text-transform:uppercase }
+#main+div>ol li, #main+div>ul li { padding-bottom:.3em; font-weight:bold }
+
+#main+div form { border:1px solid #e5e5e5; margin-top:1.5em; color:#333; font-size:1.2em }
+#main+div form dt:first-child { background:#666; color:#fff; font-weight:bold; font-size:.9em; padding:.4em .8em; margin:0 }
+#main+div form dt, #main+div form dd, #main+div form div { margin:.6em }
+#main+div form dd+dd { margin-top:-.3em }
+#main+div form input { vertical-align:text-bottom }
+#main+div form div { margin-top:1em }
+#main+div form div input:first-child { margin-right:5.4em }
+
+/* #rcol2 */
+#main+div+div { float:right; width:12em }
+
+#main+div+div ol { margin:1.5em 0 }
+#main+div+div ol li { height:3.3em; font-size:1.1em; font-weight:bold; }
+#main+div+div ol img { float:left; margin-right:.5em }
+
+#main+div+div ul li { border:1px solid #666; margin:.4em; line-height:1.1em; text-align:center }
+#main+div+div ul img { width:100% }
+#main+div+div ul a { color:#666 }
